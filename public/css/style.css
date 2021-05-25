@@ -11,14 +11,11 @@ button {
     border: 1px rgb(207, 207, 207) solid;
 }
 
-button:focus{
-    color: red;
-}
 
 button:hover {
     color: white;
-    transition: 1s;
-    transform: translateY(-25%) translateX(-5%);
+    transition: 0.2s;
+    transform: translateY(-3%) translateX(-3%);
 }
 
 button::before {

@@ -96,9 +96,9 @@ window.addEventListener('keydown', (event) => {
     } else if (event.key == '%') {
         insert("%")
     } else if (event.key == '(') {
-        insert("%")
+        insert("(")
     } else if (event.key == ')') {
-        insert("%")
+        insert(")")
     } else if (event.key == 'Escape') {
         deletee()
     } else if (event.key == 'Backspace') {
